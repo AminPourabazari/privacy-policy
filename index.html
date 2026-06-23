@@ -1,167 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy</title>
+
   <style>
+    @font-face {
+      font-family: "Vazir-Bold";
+      src: url("fonts/Vazir-Bold.ttf");
+    }
+
+    :root {
+      --primary-color: #4CAF50;
+      --text-color: #333;
+      --bg-color: #f5f5f5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.7;
+      background: var(--bg-color);
       margin: 0;
       padding: 20px;
-      background: #f5f5f5;
-      color: #222;
+      color: var(--text-color);
+      line-height: 1.7;
     }
+
     .container {
       max-width: 900px;
       margin: auto;
       background: #fff;
       padding: 25px;
-      border-radius: 10px;
+      border-radius: 12px;
     }
+
     h1, h2 {
-      color: #111;
+      color: #222;
+      font-family: Arial, sans-serif;
     }
+
     a {
-      color: #1a8f3a;
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 13px;
+      color: gray;
     }
   </style>
 </head>
 
 <body>
+
 <div class="container">
 
 <h1>Privacy Policy</h1>
 
 <p>
-This Privacy Policy applies to the mobile application developed by 
-<b>Bahar_Soft</b> (“we”, “our”, or “us”).
+This Privacy Policy applies to the app developed by
+<b>Bahar_Soft</b>.
 </p>
 
 <p>
-We respect your privacy and are committed to protecting your personal data. This policy explains how we collect, use, and protect your information.
+We respect your privacy. This policy explains how your data is collected, used, and protected when using our app.
 </p>
 
 ---
 
-<h2>1. Information We Collect</h2>
+<h2>Information Collection and Use</h2>
 
-<p>The app itself does not directly collect personal information. However, third-party services may collect the following data:</p>
+<p>
+We do not directly collect personal data. However, third-party services used in the app may collect certain information:
+</p>
 
 <ul>
   <li>Device information (model, OS version)</li>
-  <li>Advertising ID (used for AdMob ads)</li>
-  <li>App usage data (analytics)</li>
-  <li>Crash logs and performance data</li>
+  <li>Advertising ID</li>
+  <li>App usage statistics</li>
+  <li>Crash reports and diagnostics</li>
 </ul>
 
 ---
 
-<h2>2. How We Use Information</h2>
+<h2>Third-Party Services</h2>
 
-<p>Collected data is used for:</p>
+<p>The app uses the following services:</p>
 
 <ul>
-  <li>Improving app performance and stability</li>
-  <li>Providing analytics and usage insights</li>
-  <li>Displaying relevant advertisements</li>
+  <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
+  <li><a href="https://policies.google.com/technologies/ads" target="_blank">Google AdMob</a></li>
+  <li><a href="https://firebase.google.com/policies/analytics" target="_blank">Firebase Analytics</a></li>
+  <li><a href="https://firebase.google.com/support/privacy/" target="_blank">Firebase Crashlytics</a></li>
 </ul>
 
 ---
 
-<h2>3. Advertising (Google AdMob)</h2>
+<h2>Advertising (AdMob)</h2>
 
 <p>
-This app uses <b>Google AdMob</b> to display advertisements.
-AdMob may use your Advertising ID to show personalized or non-personalized ads.
+We use Google AdMob to show ads. Ads may be personalized based on your Advertising ID.
 </p>
 
 <p>
-Users can opt out of personalized ads via device settings:
+You can opt out of personalized ads in your device settings:
 <br>
-Settings → Google → Ads → Opt out of Ads Personalization
+<a href="https://support.google.com/ads/answer/2662922" target="_blank">
+Google Ads Settings
+</a>
 </p>
 
 ---
 
-<h2>4. Firebase Services</h2>
-
-<p>This app uses Firebase services such as:</p>
-
-<ul>
-  <li>Firebase Analytics (usage tracking)</li>
-  <li>Firebase Crashlytics (crash reporting)</li>
-</ul>
+<h2>Firebase Services</h2>
 
 <p>
-These services may collect anonymized data to improve app stability and performance.
+We use Firebase Analytics and Crashlytics to improve app performance and stability.
 </p>
 
 ---
 
-<h2>5. Data Sharing</h2>
+<h2>Data Sharing</h2>
 
 <p>
-We do not sell or trade your personal data.
-However, limited data may be shared with trusted third-party services such as Google AdMob and Firebase for functionality purposes.
+We do not sell your personal data. Data may be shared only with trusted third-party services (Google AdMob, Firebase).
 </p>
 
 ---
 
-<h2>6. GDPR Compliance (EU Users)</h2>
+<h2>GDPR Rights (EU Users)</h2>
 
 <p>
-If you are located in the European Economic Area (EEA), you have the following rights:
+If you are in the European Economic Area (EEA), you have rights to:
 </p>
 
 <ul>
-  <li>Right to access your data</li>
-  <li>Right to request deletion</li>
-  <li>Right to withdraw consent at any time</li>
+  <li>Access your data</li>
+  <li>Request deletion</li>
+  <li>Withdraw consent</li>
 </ul>
 
+---
+
+<h2>Children’s Privacy</h2>
+
 <p>
-We request user consent for personalized advertising where required.
+This app is not intended for children under 13. We do not knowingly collect data from children.
 </p>
 
 ---
 
-<h2>7. Children’s Privacy</h2>
+<h2>Security</h2>
 
 <p>
-This app is not directed toward children under the age of 13.
-We do not knowingly collect personal data from children.
+We use reasonable security measures, but no method of transmission is 100% secure.
 </p>
 
 ---
 
-<h2>8. Data Security</h2>
+<h2>Changes</h2>
 
 <p>
-We take reasonable measures to protect your data. However, no method of transmission over the internet is 100% secure.
+We may update this Privacy Policy periodically. Changes will be posted on this page.
 </p>
 
 ---
 
-<h2>9. Changes to This Policy</h2>
+<h2>Contact</h2>
 
 <p>
-We may update this Privacy Policy from time to time. Any changes will be posted on this page.
-</p>
-
----
-
-<h2>10. Contact Us</h2>
-
-<p>
-If you have any questions about this Privacy Policy, contact us at:
+If you have any questions:
 <br>
 <b>absoft.developer@gmail.com</b>
 </p>
 
-<p><small>Effective date: 2026</small></p>
+<div class="footer">
+Effective date: 2026
+</div>
 
 </div>
+
 </body>
 </html>
